@@ -14,6 +14,7 @@
 		190E04761E76DE7300F306EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190E04741E76DE7300F306EC /* LaunchScreen.storyboard */; };
 		190E04811E76DE7300F306EC /* MyBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E04801E76DE7300F306EC /* MyBrowserTests.swift */; };
 		190E048C1E76DE7300F306EC /* MyBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E048B1E76DE7300F306EC /* MyBrowserUITests.swift */; };
+		192B206E1E7817EC00F01C48 /* minibrowser in Resources */ = {isa = PBXBuildFile; fileRef = 192B206D1E7817EC00F01C48 /* minibrowser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		190E04871E76DE7300F306EC /* MyBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		190E048B1E76DE7300F306EC /* MyBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBrowserUITests.swift; sourceTree = "<group>"; };
 		190E048D1E76DE7300F306EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192B206D1E7817EC00F01C48 /* minibrowser */ = {isa = PBXFileReference; lastKnownFileType = folder; name = minibrowser; path = ../../repostory/minibrowser; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		190E045F1E76DE7200F306EC = {
 			isa = PBXGroup;
 			children = (
+				192B206D1E7817EC00F01C48 /* minibrowser */,
 				190E046A1E76DE7300F306EC /* MyBrowser */,
 				190E047F1E76DE7300F306EC /* MyBrowserTests */,
 				190E048A1E76DE7300F306EC /* MyBrowserUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192B206E1E7817EC00F01C48 /* minibrowser in Resources */,
 				190E04761E76DE7300F306EC /* LaunchScreen.storyboard in Resources */,
 				190E04731E76DE7300F306EC /* Assets.xcassets in Resources */,
 				190E04711E76DE7300F306EC /* Main.storyboard in Resources */,
@@ -505,6 +509,7 @@
 				190E04921E76DE7300F306EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		190E04931E76DE7300F306EC /* Build configuration list for PBXNativeTarget "MyBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				190E04951E76DE7300F306EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		190E04961E76DE7300F306EC /* Build configuration list for PBXNativeTarget "MyBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				190E04981E76DE7300F306EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
